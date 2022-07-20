@@ -1,5 +1,6 @@
 package br.com.xavier.poo;
 
+import br.com.xavier.poo.domain.Conteudo;
 import br.com.xavier.poo.domain.Curso;
 import br.com.xavier.poo.domain.Mentoria;
 
@@ -20,5 +21,9 @@ public class Main {
         mentoria.setData(LocalDate.now());
 
         System.out.println(mentoria);
+
+        Conteudo conteudo = new Curso();
+        Conteudo conteudo2 = new Mentoria();
+
     }
 }
